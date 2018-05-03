@@ -1,0 +1,39 @@
+[user]
+	name = Shailesh Samudrala
+	email = shailesh2088@gmail.com
+	[branch]
+	  autosetuprebase = always
+
+	[push]
+	  default = upstream
+
+	[core]
+	  excludesfile = ~/.gitexcludes
+	  editor = /usr/bin/vim
+
+	[fetch]
+	  recurseSubmodules = true
+
+	[color]
+	  diff = auto
+	  status = auto
+	  branch = auto
+	  interactive = auto
+	  ui = true
+
+	[alias]
+	  st = status
+	  c = commit
+	  a = add
+	  sn = status --untracked=no
+	  co = checkout
+	  wc = whatchanged
+	  l = log
+	  b = branch
+	  br = branch
+	  sub = submodule
+	  sm = submodule
+	  cp = cherry-pick
+	  last = "!git log | head -n 1 | cut -c 8- | xargs echo -n | pbcopy"
+	  bbad = bisect bad
+	  bgood = bisect good

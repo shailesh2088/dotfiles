@@ -1,0 +1,9 @@
+set ruler
+set tabstop=4
+set showcmd
+color liquidcarbon
+set guifont=Monaco:h16
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_max_files=0
+let g:ctrlp_max_depth=40
