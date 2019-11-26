@@ -1,3 +1,6 @@
 foo*
 .DS_STORE
+.DS_Store
 *.iml
+.idea
+.ssh

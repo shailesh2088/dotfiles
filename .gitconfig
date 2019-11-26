@@ -1,6 +1,6 @@
 [user]
 	name = Shailesh Samudrala
-	email = shailesh2088@gmail.com
+	email = <>
 	[branch]
 	  autosetuprebase = always
 
@@ -37,3 +37,5 @@
 	  last = "!git log | head -n 1 | cut -c 8- | xargs echo -n | pbcopy"
 	  bbad = bisect bad
 	  bgood = bisect good
+      diffc = diff --cached
+      prettylog = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
